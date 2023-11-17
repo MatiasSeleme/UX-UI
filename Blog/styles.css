@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #818FB4;
+    color: #fff;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    margin-top: 43px;
+    background-color: #5b5396;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #363062;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: rgb(130, 96, 252);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #22092c;
+}
+
+article {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.date {
+    color: #b6b4b4;
+}
+
+footer {
+    background-color: #363062;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.video-container {
+    text-align: center;
+}
+
+.video-container iframe {
+    display: inline-block;
+}
+
+.grid-container {
+    background-color: #435585;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #363062;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    background-color: #9e93b8;
+    color: #fff;
+}
+
+form input[type="submit"] {
+    background-color: #363062;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid #000;
+}
+
+form input[type="submit"]:hover {
+    background-color: #5b5396;
+}
